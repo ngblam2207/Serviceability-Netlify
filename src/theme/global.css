@@ -1,0 +1,54 @@
+/* Hide the arrow inside input type number through out entire app */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+@supports (-moz-appearance: none) {
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+}
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+div .MuiTextField-root {
+    width: 35vw;
+    max-width: 400px;
+    min-width: 80px;
+}
+
+form {
+  width: 55%;
+  min-width: 400px;
+  margin: 32px;
+}
+
+
+#resultTable {
+  width: 35%;
+  min-width: 400px;
+  margin: 32px;
+}
+
+#resultTable thead {
+  background-color: #eeeeee;
+}
+
+.Section {
+  margin-bottom: 16px;
+}
+
+div #mainBody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
